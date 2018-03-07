@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/table_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="#f1f1f1"
+        android:persistentDrawingCache="none|scrolling"
+        android:textAlignment="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957">
+
+        <Button
+            android:id="@+id/back_button_act3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Insertion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/table_layout_id"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="370dp" />
+
+        <Button
+            android:id="@+id/back_button2_act3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Search"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="425dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
